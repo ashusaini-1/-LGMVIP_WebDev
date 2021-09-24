@@ -1,0 +1,98 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.nav-bar {
+  margin-top: -45%;
+  position: absolute;
+  margin-left: 20%;
+}
+
+.image,
+.imge {
+  margin-left: -11.5%;
+  width: 122%;
+  height: 100vh;
+}
+
+.nav-bar > a {
+  text-decoration: none;
+  padding: 20px;
+  font-size: 26px;
+  color: aliceblue;
+}
+
+.button {
+  width: 120px;
+  padding: 8px;
+  background-color: darkcyan;
+  border-radius: 29px 12px 20px 0px;
+  position: absolute;
+  margin-left: 25%;
+}
+
+.Card-wrapper {
+  background-color: rgb(46, 49, 48);
+  width: 100%;
+}
+
+.Card-wrapper {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  width: 100%;
+  margin-top: -78vh;
+}
+
+.cards {
+  border: 2px solid gray;
+
+  position: relative;
+  margin: 95px;
+  height: 64%;
+  margin-left: 50px;
+  box-shadow: 4px 2px 12px 3px rgb(75, 63, 63);
+  background-color: rgb(153, 163, 163);
+  border-radius: 8px;
+  margin-right: 30px;
+}
+
+.imaging {
+  height: 127px;
+  width: 133px;
+  border-radius: 50%;
+  margin-left: 63px;
+  margin-top: 10px;
+}
+
+.images {
+  height: 127px;
+  width: 133px;
+
+  background-color: rgb(98, 134, 134);
+}
+
+.name,
+.id,
+.email {
+  margin: 10px;
+}
+
+.name {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 20px;
+  color: rgb(228, 222, 217);
+}
+
+.id {
+  text-align: center;
+  font-size: 20px;
+  color: rgb(75, 56, 41);
+}
+
+.email {
+  text-align: center;
+  font-size: 15px;
+  color: rgb(228, 222, 217);
+}
